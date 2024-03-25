@@ -75,12 +75,14 @@ const Header = () => {
           })}
       </div>
       <div className="name-wrapper container mx-auto">
-        <h1>RIO PAMBUDI</h1>
-        <p className="slug">
+        <h1 data-scroll data-scroll-speed="0.1">
+          RIO PAMBUDI
+        </h1>
+        <p className="slug" data-scroll data-scroll-speed="0.07">
           Write, <strong>Code</strong>, Live
         </p>
       </div>
-      <div className="located-wrap w-full flex items-center justify-end mt-20">
+      <div className="located-wrap w-full flex items-center justify-end mt-20" data-scroll data-scroll-speed="0.25">
         <div className="wrapper">
           <div className="img-wrap rounded-full">
             <img src="./images/globe.png" alt="globe" width={30} height={30} />
@@ -90,12 +92,15 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div className="slider-container">
+      <div className="slider-container" data-scroll data-scroll-speed="0.15">
         <div ref={slider} className="slider">
           <p ref={firstText}>SOFTWARE ENGINEER - </p>
           <p ref={secondText}>SOFTWARE ENGINEER - </p>
         </div>
       </div>
+      <span className="text-bg" data-scrol data-scroll-speed="0.4">
+        ENGI NEER
+      </span>
     </section>
   );
 };
