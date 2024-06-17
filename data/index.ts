@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently building a JS Animation library',
-    description: 'The Inside Scoop',
+    title: 'Currently learning Data Science',
+    description: 'Machine Learning & Artificial Intelligence',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
     titleClassName: 'justify-center md:justify-start lg:justify-center',
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: 'Do you want to start a project together?',
+    title: "Let's start project together!",
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
     imgClassName: '',
@@ -72,24 +72,24 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: '3D Solar System Planets to Explore',
-    des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
+    title: 'Photomatics Dashboard | Fullstack',
+    des: 'Maintenance and Develop login for customer, collect point custoemr and change point into free voucher',
     img: '/p1.svg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: 'https://github.com/adrianhajdin?tab=repositories',
+    link: 'https://photomatics.web.id',
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
+    title: 'Photomatics Express | Fullstack',
+    des: "Develop feature login, form order, import Excel and rules if has same or hasn't number order",
     img: '/p2.svg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/zoom-clone',
+    link: '#',
   },
   {
     id: 3,
-    title: 'AI Image SaaS - Canva Application',
-    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
+    title: 'VCGamers | Sr. Frontend',
+    des: 'Build e-commerce features including Buy Now, Cart, Promo, and Payment Transaction',
     img: '/p3.svg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
     link: 'https://github.com/adrianhajdin/ai_saas_app',
