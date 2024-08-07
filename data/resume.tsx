@@ -1,22 +1,4 @@
 export const DATA = {
-  education: [
-    {
-      school: "Pacmann",
-      href: "https://pacmann.io/",
-      degree: "AI Engineer Student",
-      logoUrl: "/pacmann.jpeg",
-      start: "2024",
-      end: null,
-    },
-    {
-      school: "Diponegoro University",
-      href: "https://www.undip.ac.id/",
-      degree: "Bachelor's Degree of Computer Engineering",
-      logoUrl: "/undip.jpeg",
-      start: "2017",
-      end: "2023",
-    },
-  ],
   work: [
     {
       company: "Photomatics",
@@ -35,8 +17,36 @@ export const DATA = {
       title: "Sr. Frontend Specialist",
       logoUrl: "/vc.jpeg",
       start: "January 2022",
-      end: "Marh 2024",
+      end: "March 2024",
       description: "description",
+    },
+    {
+      company: "Wakaspace",
+      href: "#",
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "/wakaspace.jpg",
+      start: "Oct 2021",
+      end: "Dec 2021",
+      description: "description",
+    },
+  ],
+  education: [
+    {
+      school: "Pacmann",
+      href: "https://pacmann.io/",
+      degree: "AI Engineer Student",
+      logoUrl: "/pacmann.jpeg",
+      start: "2024",
+      end: null,
+    },
+    {
+      school: "Diponegoro University",
+      href: "https://www.undip.ac.id/",
+      degree: "Bachelor's Degree of Computer Engineering",
+      logoUrl: "/undip.jpeg",
+      start: "2017",
+      end: "2023",
     },
   ],
 } as const;
