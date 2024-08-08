@@ -104,4 +104,14 @@ export const DATA = {
       video: "",
     },
   ],
+  themes: [
+    {
+      title: "Default",
+      colors: ["A6E3E9", "DBE2EF", "3F72AF"],
+    },
+    {
+      title: "Dark",
+      colors: ["A6E3E9", "DBE2EF", "3F72AF"],
+    },
+  ],
 } as const;
