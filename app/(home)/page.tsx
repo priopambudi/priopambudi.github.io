@@ -7,13 +7,13 @@ import Projects from "@/components/Projects";
 
 export default function Home() {
   return (
-    <main className="max-w-2xl mx-auto flex flex-col min-h-[100dvh] space-y-10">
+    <>
       <Header />
       <About />
       <Work />
       <Education />
       <Skills />
       <Projects />
-    </main>
+    </>
   );
 }
