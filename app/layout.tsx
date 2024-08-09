@@ -3,6 +3,7 @@ import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+import { ThemeProvider } from "next-themes";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -22,10 +23,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("", fontSans.variable)}>
-        <Navbar />
-        <main className="font-sans antialiased py-10 sm:py-16 px-6 max-w-2xl mx-auto flex flex-col min-h-[100dvh] space-y-10">
-          {children}
-        </main>
+        <ThemeProvider>
+          <Navbar />
+          <main className="font-sans antialiased py-10 sm:py-16 px-6 max-w-2xl mx-auto flex flex-col min-h-[100dvh] space-y-10">
+            {children}
+          </main>
+        </ThemeProvider>
       </body>
     </html>
   );

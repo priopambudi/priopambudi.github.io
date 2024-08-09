@@ -106,7 +106,7 @@ export const DATA = {
   ],
   themes: [
     {
-      title: "Default",
+      title: "Light",
       colors: ["255 255 255", "255 130 37", "180 62 63", "23 59 69"],
     },
     {
@@ -120,6 +120,10 @@ export const DATA = {
     {
       title: "Playfull",
       colors: ["239 131 67", "241 223 198", "23 155 174", "65 88 166"],
+    },
+    {
+      title: "System",
+      colors: [],
     },
   ],
 } as const;
