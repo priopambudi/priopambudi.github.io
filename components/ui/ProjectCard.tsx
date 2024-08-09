@@ -68,7 +68,7 @@ const ProjectCard = ({
             {technologies?.map((tag) => (
               <Badge
                 className="px-1 py-0 text-[10px]"
-                variant="secondary"
+                variant="outline"
                 key={tag}
               >
                 {tag}

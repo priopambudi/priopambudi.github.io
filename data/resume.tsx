@@ -107,11 +107,19 @@ export const DATA = {
   themes: [
     {
       title: "Default",
-      colors: ["A6E3E9", "DBE2EF", "3F72AF"],
+      colors: ["255 255 255", "255 130 37", "180 62 63", "23 59 69"],
     },
     {
       title: "Dark",
-      colors: ["A6E3E9", "DBE2EF", "3F72AF"],
+      colors: ["240 240 240", "67 66 66", "34 34 34", "34 163 158"],
+    },
+    {
+      title: "Retro",
+      colors: ["1 32 79", "2 131 145", "230 220 172", "238 174 110"],
+    },
+    {
+      title: "Playfull",
+      colors: ["239 131 67", "241 223 198", "23 155 174", "65 88 166"],
     },
   ],
 } as const;

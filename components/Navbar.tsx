@@ -27,14 +27,12 @@ const Navbar = () => {
                   {DATA.themes.map((theme, indx) => (
                     <div key={indx} className="w-max">
                       <p className="text-center mb-3">{theme.title}</p>
-                      <div className="border w-max h-max flex p-4 rounded-xl items-center justify-center cursor-pointer -space-x-2">
+                      <div className="border w-max h-max flex p-4 rounded-xl items-center justify-center cursor-pointer scale-100 hover:scale-110 -space-x-2 transition-all">
                         {theme.colors.map((clr, indx) => (
                           <div
                             key={indx}
-                            className={`bg-[#${clr}] w-6 h-6 rounded-full`}
-                            // style={{
-                            //   transform: `translateX(-${2 * indx * 2}px)`,
-                            // }}
+                            className="w-6 h-6 rounded-full border"
+                            style={{ backgroundColor: `rgb(${clr})` }}
                           ></div>
                         ))}
                       </div>
