@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAcqcUlgualbp2BifTG1pOVI1I5mKvOVAhIQ&s",
+      "title": "Dolts",
+      "description": "A lightweight library in your local terminal!",
+      "tech": ["Node.js", "Filesystem"]
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/v2/D5622AQFDcEr58nWYFg/feedshare-shrink_1280/B56ZZ2Edt8HgAs-/0/1745737606456?e=1749081600&v=beta&t=EZjK1F_u6zKfX1UffHUcAHrYCPQNguIzSfRZzE79xTI",
+      "title": "Dolts",
+      "description": "A lightweight library in your local terminal!",
+      "tech": ["Node.js", "Filesystem"]
+    }
+  ],
+  "articles": [
+    {
+      "img": "https://media.licdn.com/dms/image/v2/D5622AQFDcEr58nWYFg/feedshare-shrink_1280/B56ZZ2Edt8HgAs-/0/1745737606456?e=1749081600&v=beta&t=EZjK1F_u6zKfX1UffHUcAHrYCPQNguIzSfRZzE79xTI",
+      "title": "Https Response Status Codes",
+      "description": "🚀 HTTP response status codes you should know If you're a programmer (or even if you're not), it's important to understand HTTP response status codes.",
+      "date": "2025-04-27"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/v2/D4E22AQEqpl8e4wK9yA/feedshare-shrink_800/B4EZZcrhTHGYAg-/0/1745311637700?e=1749081600&v=beta&t=by7K_9E58zdnAYw-02hxM_yzGkC18eyYCuIfIMatwx8",
+      "title": "Require vs Import",
+      "description": "Kalau kamu masih pakai require, sepertinya harus pertimbangkan untuk menggunakan import mulai sekarang.",
+      "date": "2025-04-25"
+    },
+    {
+      "img": "https://media.licdn.com/dms/image/v2/D5622AQG4l17NJDEwfA/feedshare-shrink_800/B56ZZTRzJcGcAo-/0/1745153899226?e=1749081600&v=beta&t=o9NALzphy1baOUYuqQnjacep7BGPwvk8dOwprOLJU-8",
+      "title": "AES vs bcrypt",
+      "description": "Beberapa hari yang lalu saya ngulik tentang encryption, dan menemukan satu hal yang menarik buat saya, yaitu AES (Advanced Encryption System)   ",
+      "date": "2025-04-25"
+    }
+  ]
+}
