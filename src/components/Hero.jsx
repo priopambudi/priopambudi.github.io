@@ -10,13 +10,13 @@ const Hero = () => {
           <div className="flex items-center justify-between">
             <div>
               <Reveal>
-                <h1 className="text-black text-[8rem] font-bold leading-[0.9em]">
+                <h1 className="text-black text-[6rem] font-bold leading-[1em]">
                   Software <br />
                   Engineer <br />& AI Driver
                 </h1>
               </Reveal>
               <Reveal delay={0.4}>
-                <p className="mt-7 text-xl">
+                <p className="mt-7 text-lg">
                   A place to share, write, and have fun!
                 </p>
               </Reveal>

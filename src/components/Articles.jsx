@@ -21,7 +21,9 @@ const Articles = () => {
                   />
                 </div>
                 <div className="bg-[#f2f2f2] px-6 py-6 rounded-bl-[1rem] rounded-br-[1rem]">
-                  <h3 className="text-2xl font-bold mb-1">{article.title}</h3>
+                  <h3 className="text-2xl font-bold mb-1 min-h-[64px] line-clamp-2 w-full max-w-full">
+                    {article.title}
+                  </h3>
                   <p className="text-ls mt-3 line-clamp-2 w-full max-w-full">
                     {article.description}
                   </p>
